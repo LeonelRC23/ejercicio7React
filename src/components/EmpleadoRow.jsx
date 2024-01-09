@@ -7,7 +7,7 @@ const EmpleadoRow = () => {
   return (
     <ListGroupItem className="d-flex">
       <EmpleadoAvatar />
-      <div>
+      <div className="mx-3">
           <p id="nombre">Gerardo de Rivia</p>
         <div className="d-flex caracteristicas">
           <p>CEO</p>
