@@ -1,6 +1,7 @@
 #nombre {
   margin: 0px;
   margin-top: 25px;
+  font-weight: 700;
 }
 
 .caracteristicas {
@@ -15,7 +16,6 @@
 #puesto {
     color: white;
     background-color: rgb(77, 228, 228);
-    border-radius: 10px;
 }
 
 @media (max-width: 620px){

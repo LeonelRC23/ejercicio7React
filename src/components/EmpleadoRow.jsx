@@ -3,15 +3,15 @@ import { ListGroupItem } from "react-bootstrap";
 import EmpleadoAvatar from "./EmpleadoAvatar";
 import "../style/empleadoRow.css"
 
-const EmpleadoRow = () => {
+const EmpleadoRow = ({objetoEmpleado}) => {
   return (
     <ListGroupItem className="d-flex">
-      <EmpleadoAvatar />
+      <EmpleadoAvatar objetoEmpleado={objetoEmpleado}/>
       <div className="mx-3">
-          <p id="nombre">Gerardo de Rivia</p>
+          <p id="nombre">{objetoEmpleado.fullName}</p>
         <div className="d-flex caracteristicas">
-          <p>CEO</p>
-          <p id="puesto">Business</p>
+          <p>{objetoEmpleado.title}</p>
+          <p id="puesto">{objetoEmpleado.department}</p>
         </div>
       </div>
     </ListGroupItem>
