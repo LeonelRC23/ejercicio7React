@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, ListGroup } from "react-bootstrap";
 import EmpleadoRow from "./EmpleadoRow";
-import "../style/EmpleadoList.css";
+import "../style/empleadoList.css";
 import empleados from "../arrays/empleados.js";
 
 const EmpleadoList = () => {
